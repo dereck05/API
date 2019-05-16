@@ -1,2 +1,2 @@
-comida('arroz','resul1').
-comida('carnitas','resul2').
+comida('arroz','hola').
+comida('frijol','adios').
