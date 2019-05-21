@@ -8,9 +8,8 @@ from multiprocessing.pool import ThreadPool
 
 
 app = Flask(__name__)
-#config_name = os.getenv('APP_SETTINGS')
-#app.config.from_object(os.environ['APP_SETTINGS'])
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql:///usuarios'
+
+app.config['SQLALCHEMY_DATABASE_URI']='postgresql://dereck05:sapito05@localhost/usuarios'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 db = SQLAlchemy(app)
 
